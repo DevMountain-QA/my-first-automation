@@ -19,7 +19,7 @@ module.exports = {
     // },
     'Search San Francisco' : browser => {
         weatherSearch(browser, 'San Francisco', 'San Francisco')    
-    },
+    }, 
     'Istanbul Smoke Test' : browser => {
         browser.setValue('input', 'Istanbul')
             .assert.value('input', 'Istanbul')
